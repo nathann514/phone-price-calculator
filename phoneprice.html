@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Phone Price Calculator</title>
+  </head>
+  <body>
+
+    <h1>Phone Price Calculator</h1>
+
+    <label for="enter-balance">How much money do you want to add? $</label>
+    <input id="enter-balance" type="text" value="">
+    <button type="button" id="balance-button">Add Funds</button>
+    <p id="current-balance"></p>
+
+    <br>
+
+    <label for="choose-phone">Choose phone to buy: </label>
+    <select id="choose-phone">
+      <option id="phone-none" value=""></option>
+      <option id="phone1" value="iPhone X">iPhone X -- $800.00</option>
+      <option id="phone2" value="Samsung Galaxy s9">Samsung Galaxy s9 -- $550.00</option>
+      <option id="phone3" value="Microsoft Lumia 950 XL">Microsoft Lumia 950 XL -- $70.00</option>
+    </select>
+
+    <br><br>
+
+    <label for="choose-accessory">Choose accessory to buy: </label>
+    <select id="choose-accessory">
+      <option value=""></option>
+      <option id="accessory1" value="Phone case">Phone case -- $35.00</option>
+      <option id="accessory2" value="Headphones">Headphones -- $20.00</option>
+      <option id="accessory3" value="Screen Protector">Screen Protector -- $19.99</option>
+      <option id="accessory4" value="Star Trek(™) Bluetooth Communicator">Star Trek(™) Bluetooth Communicator -- $150.00 </option>
+    </select>
+
+    <br><br>
+
+    <button type="button" id="purchase-button">Click to Purchase</button>
+
+    <p id="cost"></p>
+
+    <script type="text/javascript" src="phoneprice.js"></script>
+  </body>
+</html>
